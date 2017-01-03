@@ -1,0 +1,162 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+#page-container{
+	width:100%;
+	margin:auto;	
+}
+#main-nav{
+	background: red;
+	height:60px;
+}
+#header{
+	background: blue;
+	height:150px;
+}
+#sidebar{
+	float: right;
+	width: 480px;
+	word-break: break-all;
+	background: darkgreen;
+}
+#content{
+	margin-right: 280px;
+	background: white;
+	word-break: break-all;
+}
+#footer{
+	clear:both;
+	background: orange;
+	height:66px;
+}
+.images-container{
+	padding:20px 0;
+	margin-right: 280px;
+}
+.wrapper{
+	width:1160px;
+	margin:0 atuo;
+	margin-right: 280px;
+}
+.images-container .title{
+    height: 74px;
+    line-height: 74px;
+    font-size: 36px;
+    font-family: Hiragino Sans GB,Microsoft YaHei,SimHei,SimSun,sans-serif;
+    color: #636363;
+    margin-left: 30%;
+}
+.photo{
+	width: 100px;
+	height: 100px;
+}
+dl dd{ 
+	margin-left: 10%; 
+	margin-right: 400px;
+    margin-top:10px;
+    height:100px;  
+    border:1px solid  blue; 
+}  
+dl dd img{  
+    float:left;     
+}  
+dl dd a{       
+    vertical-align:middle;   
+    text-align:left;
+    text-decoration:none;
+}
+#section{
+	clear:both;
+	height:280px;
+	margin-top: 20px;
+	background-image:url(../images/section-bg.jpg)
+}
+.section-photo{
+	width: 200px;
+	height: 200px;
+}
+.passage{
+	margin-left: 10%;
+	text-align:center;
+	width:80%;
+	height:280px;
+}
+.passage div{
+	float:left;
+	margin-top:20px;
+	margin-left:65px;
+	margin-right:65px;
+}
+.passage p{
+	font-size:20px;
+}
+a{
+	text-decoration:none;
+	color:#204402;
+}
+a:hover{
+	text-decoration:underline;	
+	color:red;
+	text-decoration:none;
+}
+.passage a:hover img{
+	border:4px #0b35ce solid;
+}
+.list {
+    width: 900px;
+    margin: 30px auto 0;
+}
+.trip-list-v2 .trip-list-item {
+    float: left;
+    margin: 20px 10px 20px;
+}
+.trip-list-item {
+    width: 430px;
+    height: 430px;
+    background: url(../images/list-bg.png) no-repeat center bottom;
+    position: relative;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+}
+.trip-list-item .inner {
+    height: 425px;
+    background: #FFF;
+}
+.trip-list-item .cover-image {
+    width: 100%;
+    height: 258px;
+    overflow: hidden;
+    position: relative;
+    background-color: #D8D8D8;
+}
+#inner a {
+    color: #444;
+    text-decoration: none;
+    outline: none;
+}
+.trip-list-item .name {
+    font-size: 18px;
+    margin-top: 30px;
+}
+.trip-list-item .meta {
+    font-size: 12px;
+    color: #999;
+}
+.side-writer-img{
+	width:80%;
+	height: 220px;
+	margin-left: 40px;
+	margin-top: 100px;
+}
+.writer{
+	margin-left: 15%;
+	width:70%;
+	height:260px;
+	border:4px #0b35ce solid;
+
+}
+.writer h2{
+	text-align: center;
+}
