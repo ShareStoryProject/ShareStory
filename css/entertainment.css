@@ -1,3 +1,13 @@
+.clearfix:before, 
+.clearfix:after, 
+{
+	display: table;
+	content: " ";
+	clear: both;
+}
+.footposition{
+	min-height: 600px;
+}
 .e-top{
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -60,19 +70,11 @@
 
 }
 
-.clearfix:before, 
-.clearfix:after, 
-{
-	display: table;
-	content: " ";
-	clear: both;
-}
+
 @media (max-width: 767px){
     .col-sm-12{
         width: 100%;
     }
-    .col-sm-3{
-        width: 25%;
 }
 @media (min-width: 992px){
     .col-lg-6{
