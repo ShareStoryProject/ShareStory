@@ -71,6 +71,8 @@
     .col-sm-12{
         width: 100%;
     }
+    .col-sm-3{
+        width: 25%;
 }
 @media (min-width: 992px){
     .col-lg-6{
