@@ -1,0 +1,147 @@
+.clearfix:before, 
+.clearfix:after, 
+{
+	display: table;
+	content: " ";
+	clear: both;
+}
+.banner1 {
+	background: url(../images/bnr-2.jpg) no-repeat;
+	background-size: 100% 100%;
+	min-height: 330px;
+	position: relative;
+	height: auto;
+}
+.menu ul li a span{
+	background: url(../images/icons.png) no-repeat 0px 0px;
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+.menu {
+	text-align: center;
+	margin-top: 6%;
+}
+.menu li{
+	display:block;
+}
+.menu li:first-child{
+   	margin-left:0;
+}
+.menu li a{
+	display: block;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #fff;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	text-align: center;
+	position:relative;
+}
+.menu ul li a span:hover, .footer-main-right ul li span:hover {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.toggleMenu {
+	display:  none;
+    	border-radius:2em; 
+    	-webkit-border-radius:2em;
+    	-moz-border-radius:2em;
+    	-o-border-radius:2em; 
+    	float:right;
+}
+#nav .current a {
+    	color:#fb326f;
+   	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+}
+.nav > li > a {
+	margin: 0px 10px;
+	padding: 4px 0px 4px 0px;
+}
+ul.nav li.active a{
+	position:relative;
+	content: '';
+}
+ul.nav li.active a:before {
+	position: absolute;
+	width: 8%;
+	height: 3px;
+	background: #b3825a;
+	display: block;
+	content: '';
+	left: 36%;
+	top: 19px;
+}
+ul.nav li.active a:after {
+	position: absolute;
+	width: 8%;
+	height: 3px;
+	background: #b3825a;
+	display: block;
+	content: '';
+	left: 55.8%;
+	top: 21px;
+}
+.active, header, nav, footer {
+        display: block;
+    }
+a:active, a:hover {
+  outline: 0;
+}
+h4, h5, h6, h1, h2, h3 {
+	margin-top: 0;
+}
+ul, ol {
+	margin: 0;
+}
+p {
+	margin: 
+	0;}
+html, body{
+   font-family: sans-serif;
+   font-size: 100%;
+   background:#fff; 
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+@media (max-width: 767px){
+	.banner1{
+		min-width: 70px;
+
+	}
+}
+@media (min-width: 992px){
+	.banner1{
+		min-width: 300px;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px){
+	.banner1{
+		min-width: 150px;
+	}
+}

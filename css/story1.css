@@ -1,0 +1,29 @@
+h6{
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+	margin: 20px;
+	line-height: 1.45em;
+	color: #4588d5;
+}
+.author{
+	font-size: 1.2em;
+	text-align: center;
+	font-style: italic;
+	padding: 20px;
+}
+.article{
+	float: left;
+	font-size: 1.2em;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.ref{
+	text-align: center;
+	font-style: italic;
+	font-size: 1.1em;
+	
+}
