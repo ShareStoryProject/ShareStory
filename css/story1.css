@@ -3,7 +3,6 @@ h6{
 	text-align: center;
 	width: 100%;
 	margin: 20px;
-	line-height: 1.45em;
 	color: #4588d5;
 }
 .author{
@@ -26,4 +25,10 @@ h6{
 	font-style: italic;
 	font-size: 1.1em;
 	
+}
+.return{
+	margin: 40px;
+	font-size: 1em;
+	font-style: italic;
+	color: red;
 }

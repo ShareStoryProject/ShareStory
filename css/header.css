@@ -5,12 +5,37 @@
 	content: " ";
 	clear: both;
 }
+.container:before,
+.container:after,{
+	display: table;
+  content: " ";
+}
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .banner1 {
 	background: url(../images/bnr-2.jpg) no-repeat;
 	background-size: 100% 100%;
 	min-height: 330px;
 	position: relative;
 	height: auto;
+	background-position: top;
+
+}
+html, body {
+    font-family: 'Exo', sans-serif;
+    font-size: 100%;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
 }
 .menu ul li a span{
 	background: url(../images/icons.png) no-repeat 0px 0px;
@@ -20,7 +45,7 @@
 }
 .menu {
 	text-align: center;
-	margin-top: 6%;
+	margin-top: 0%;
 }
 .menu li{
 	display:block;
@@ -81,6 +106,7 @@
 ul.nav li.active a{
 	position:relative;
 	content: '';
+	color: #b3825a;
 }
 ul.nav li.active a:before {
 	position: absolute;
@@ -89,7 +115,7 @@ ul.nav li.active a:before {
 	background: #b3825a;
 	display: block;
 	content: '';
-	left: 36%;
+	left: 34.4%;
 	top: 19px;
 }
 ul.nav li.active a:after {
@@ -99,9 +125,14 @@ ul.nav li.active a:after {
 	background: #b3825a;
 	display: block;
 	content: '';
-	left: 55.8%;
+	left: 57.5%;
 	top: 21px;
 }
+a {
+    color: #1b242f;
+    text-decoration: none;
+}
+
 .active, header, nav, footer {
         display: block;
     }
@@ -115,13 +146,9 @@ ul, ol {
 	margin: 0;
 }
 p {
-	margin: 
-	0;}
-html, body{
-   font-family: sans-serif;
-   font-size: 100%;
-   background:#fff; 
+	margin: 0;
 }
+
 body a{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
