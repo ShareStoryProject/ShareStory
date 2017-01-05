@@ -78,10 +78,10 @@
 }
 @media (min-width: 992px){
     .col-lg-6{
-        width: 46%;
+        width: 48%;
     }
     .col-lg-12{
-    	width:99%;
+    	width:100%;
     }
 }
 
