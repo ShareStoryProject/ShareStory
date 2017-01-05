@@ -6,12 +6,8 @@
     position: absolute;
 }
 .footer-container {
-	float:left;
-	width:100%;
-    padding-right: 15px;
+    float:left;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 .footer-left{
 	float:left;
