@@ -10,6 +10,8 @@ In the Home page, the users can sign in and sign up ( which are  fake ones). The
 
 The Literature page is composed of three parts: reading up-to-date stories of our site, recommendation of good books and reading online articles. Each part of the Literature is written in different styles. For 'Read More', I add three HTML for the users to read the articles in detail. Similarly, I add the contact information in this page.
 
+Andi: I have written the part of "Entertainment" page, which show the stories of music and film. I have also written a CSS for this page and also a CSS for the "header. I have also written 2 link pages "yourstory1.html" and "yourstory2.html" for this page and also a CSS for the link pages. I have written the "header.css" with the help of the files which is offered by Lina. the "Entertainment" page contains 3 parts except the header and the footer. And the page "Entertainment" is well responsive.
+
 Yuhang: I am responsible for the "Travelling" page, which showing the travelling stories. This page contains six parts: Header, sidebar(writer's introduction), three parts about travelling stories with different layouts, footer. According to the footer which Lina offered, I simulated it and created a simple one for this page. The page is responsive.
 
 Finally, the Contact part contains a Google Map API, a contact form and the precise information to contact us. 
